@@ -1,0 +1,88 @@
+#welcome{
+  background-image: url('maxresdefault.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.landing{
+  background-color: white;
+  border-radius: 15px;
+  margin: 8%;
+  padding: 20%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.landing h1{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+}
+.portal{
+  display: flex;
+  justify-content:center;
+  background-color: rgb(80, 205, 255);
+  color: white;
+  font-size: 16px;
+  padding: 10px 40px;
+  border-radius: 20px;
+  cursor: pointer;
+  text-align: center;
+  box-shadow: 0 4px 8px 0 #8888;
+}
+.portal:hover {
+  background-color: black;
+  color: white;
+}
+.myHeading h2, .myHeading img{
+  display: inline;
+  vertical-align: middle;
+}
+.main{
+  background-color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+  font-size: 12px;
+  color:black;
+  text-align: left;
+}
+p{
+  line-height: 1.5;
+}
+a{
+  text-decoration: none;
+}
+.main h1{
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+}
+h2{
+  text-transform: uppercase;
+  font-size: 14px;
+}
+img{
+  height: 11px;
+}
+.main button{
+  border: none;
+  border-radius: 20px;
+  background-color: rgb(85, 144, 255);
+  color: white;
+  box-shadow:0 4px 8px 0 #8888;
+  cursor: pointer;
+}
+.main button:hover{
+  background-color: black;
+  color: white;
+}
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+#other{
+  background-color: #ffbcd9;
+  color:white;
+}
+.center{
+  display: flex;
+  justify-content: center;
+  margin: 150px;
+}
